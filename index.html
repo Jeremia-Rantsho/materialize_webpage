@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="/materialize.min.js"></script>
+    <title>materialize Webpage</title>
+    <style>
+        .swap-on-small{
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="background-image: url({{introBackground}}); background-position: center;">
+            <div class="col s12 m8 l8">
+                <h1 style="color: orange;">{{user.fullName}}</h1>
+            </div>
+            <div class="col s12 m4 l4">
+                <img class="responsive-img" src={{user.photo}} style=" border-radius: 50%">
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <h3>{{city.name}}</h3>
+                <img class="responsive-img"  src={{city.photo}}>
+            </div>
+            <div class="col s12 m6 l8">
+                <p>
+                    {{city.description}}
+                </p>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+            <h3>{{foreignLanguage.language}}</h3>
+            <p>
+                {{foreignLanguage.description}}
+            </p>
+
+            <table class="striped">
+                <thead>
+                    <tr>
+                        {{#each foreignLanguage.tableheader}}
+                        <th>{{this}}</th>
+                        {{/each}}
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each foreignLanguage.phrases}}
+                    <tr>
+                        <td>{{this.englishPhrase}}</td>
+                        <td>{{this.foreignLanguage}}</td>
+                    </tr>
+                    {{/each}}
+                    
+                </tbody>
+            </table>
+            <hr>
+        </div>
+        <div class="row">
+            <h3>{{favouriteSubjects.subjects}}</h3>
+            {{#each favouriteSubjects.subjectsDetails}}
+            <div class="col s12 l4">
+                
+                <h4>{{this.name}}</h4>
+                <div class="col s6 swap-on-small">
+                    {{this.description}}
+                </div>
+                <div class="col s6">
+                    <img class="responsive-img" src={{this.photo}}>
+                </div>
+                
+            </div>
+            {{/each}}
+        </div>
+
+        <div class="row">
+            {{developer.name}}
+        </div>
+    </div>
+</body>
+</html>

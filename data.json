@@ -1,0 +1,59 @@
+{
+    "introBackground": "./Table-Mountain_GettyImages.webp",
+    "user": {
+        "fullName": "JEREMIA DIKETSO RANTSHO",
+        "photo": "./profile-picture.jpg"
+    },
+    "city": {
+        "name": "Istanbul",
+        "photo": "./City-picture.jpg",
+        "description": "When talking about Istanbul, we talking about a huge city in Turkey and it is rich in historic places. The city forms part of two continents making it simpler for intra-continent travelling with a ferry. Both continents are divided by a Bosphorus Strait that joins the Black sea. The city itself is considered to be the country's economic, cultural and historic capital. It holds great significant history of Constantinople, Ottoman empire and religiouos places, for instance, Hagia Sophia. The city is beautiful and people are just great. The transportation is affordable and I got to experience beautiful sight-seeing. The reason I chose the city is because I went to the city for my studies. And I want to visit the place for vacation to meet the great people I have met."
+    },
+    "foreignLanguage": {
+        "language": "Swahili",
+        "description": "In the world, there are multiple languages and it is basically based on an individual to select their language of choice to learn for a particular reasoning of their own. Learning a language is a good thing afterall because people enable themselves to communicate with different people with different languages making it more easier to survive in areas where one's home language or english may not be known by majority of the people. Well, long story short, in this personal webpage I intended to tell the world about the language of interest for me. The language is Swahili, the language is the most spoken in Africa and as for someone who also want to travel around mother-continent. I want to do it having Swahili language in the bag. As much as we can communicate with each other in English, personally I would like to have a conversation with fellow brothers of the continent in African language.",
+        "tableheader": ["English Language", "Swahili Language"],
+        "phrases": [
+            {
+                "englishPhrase": "Hi! How are you?",
+                "foreignLanguage": "Hujambu?"
+            },
+            {
+                "englishPhrase": "What is your name?",
+                "foreignLanguage": "Jina lako ni nani?"
+            },
+            {
+                "englishPhrase": "How are things here?",
+                "foreignLanguage": "Habari za hapa?"
+            },
+            {
+                "englishPhrase": "Your siblings are fine also?",
+                "foreignLanguage": "Marahaba, Hujambo?"
+            }
+        ]
+    },
+    "favouriteSubjects": {
+        "subjects": "Favourite Subjects",
+        "subjectsDetails": [ 
+                {
+                    "name": "4IR TECHNOLOGIES BOOTCAMP",
+                    "description": "There are new technologies that keeps blooming up every day and the people need to keep up in order to keep up and survive.",
+                    "photo": "./4IR-Technologies.png"
+                },
+                {
+                    "name": "FULLSTACK WEB DEVELOPMENT FOR 4IR",
+                    "description": "Build webpages and apps from scratch with full understanding of backend and frontend.",
+                    "photo":"./FullStack-Web-Development.png"
+                },
+                {
+                    "name": "AGILE RAPID SKILLS ACQUISITION",
+                    "description": "Afterall, as a software developer you end up working with people. And there are scrums that developers works in, that means agile skills is important for developer to have ability to work with others and also share ideas.",
+                    "photo": "./Agile-Rapid-Skills-Acquisition.jpg"
+                    
+                }
+            ]
+    },
+    "developer":{
+        "name": "JD RANTSHO"
+    }
+}
