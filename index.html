@@ -14,21 +14,21 @@
         }
     </style>
 </head>
-<body>
-    <div class="container">
+<body class="card-panel teal lighten-2">
+    <div class="container #ff8a80 red accent-1">
         <div class="row" style="background-image: url({{introBackground}}); background-position: center;">
             <div class="col s12 m8 l8">
                 <h1 style="color: orange;">{{user.fullName}}</h1>
             </div>
             <div class="col s12 m4 l4">
-                <img class="responsive-img" src={{user.photo}} style=" border-radius: 50%">
+                <img class="responsive-img z-depth-5 hoverable" src={{user.photo}} style=" border-radius: 50%">
             </div>
             <hr>
         </div>
         <div class="row">
             <div class="col s12 m6 l4">
                 <h3>{{city.name}}</h3>
-                <img class="responsive-img"  src={{city.photo}}>
+                <img class="responsive-img z-depth-4 hoverable"  src={{city.photo}}>
             </div>
             <div class="col s12 m6 l8">
                 <p>
@@ -43,7 +43,7 @@
                 {{foreignLanguage.description}}
             </p>
 
-            <table class="striped">
+            <table class="striped centered">
                 <thead>
                     <tr>
                         {{#each foreignLanguage.tableheader}}
@@ -70,11 +70,11 @@
             <div class="col s12 l4">
                 
                 <h4>{{this.name}}</h4>
-                <div class="col s6 swap-on-small">
+                <div class="col s6 {{classNameTxt}} l6">
                     {{this.description}}
                 </div>
-                <div class="col s6">
-                    <img class="responsive-img" src={{this.photo}}>
+                <div class="col s6 {{classNameImg}} l6">
+                    <img class="responsive-img z-depth-4 hoverable" src={{this.photo}}>
                 </div>
                 
             </div>

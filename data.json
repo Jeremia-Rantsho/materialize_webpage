@@ -39,11 +39,14 @@
                     "name": "4IR TECHNOLOGIES BOOTCAMP",
                     "description": "There are new technologies that keeps blooming up every day and the people need to keep up in order to keep up and survive.",
                     "photo": "./4IR-Technologies.png"
+                    
                 },
                 {
                     "name": "FULLSTACK WEB DEVELOPMENT FOR 4IR",
                     "description": "Build webpages and apps from scratch with full understanding of backend and frontend.",
-                    "photo":"./FullStack-Web-Development.png"
+                    "photo":"./FullStack-Web-Development.png",
+                    "classNameImg":"pull-s6",
+                    "classNameTxt":"push-s6"
                 },
                 {
                     "name": "AGILE RAPID SKILLS ACQUISITION",
@@ -54,6 +57,6 @@
             ]
     },
     "developer":{
-        "name": "JD RANTSHO"
+        "name": "@JD RANTSHO"
     }
 }
